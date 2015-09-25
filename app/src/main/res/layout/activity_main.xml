@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity"
+    android:background="@drawable/ghostartscreen">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/scores"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:text="High Scores"/>
+
+    <TextView
+        android:layout_width="500dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:id="@+id/scores2"
+        android:gravity="left"
+        android:text="1.\n\n2.\n\n3.\n\n4.\n\n5."
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/playButton"
+        android:layout_alignStart="@+id/playButton"
+        />
+
+    <ImageButton
+        android:layout_width="175dp"
+        android:layout_height="48dp"
+        android:id="@+id/playButton"
+        android:onClick="sendMessage"
+        android:src="@drawable/play"
+        android:padding = "0dp"
+        android:layout_marginBottom="120dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"/>
+
+
+
+
+</RelativeLayout>

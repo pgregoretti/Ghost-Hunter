@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Ghost_Hunter_app</string>
+    <string name="play_Activity">Game Screen</string>
+    <string name="start_Activity">Start Screen</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_play">PlayActivity</string>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <string name="score1">Score1</string>
+    <string name="score2">Score2</string>
+    <string name="score3">Score3</string>
+    <string name="score4">Score4</string>
+    <string name="score5">Score5</string>
+    <string name="preference_file_key">jyc2ra.cs2110.PREFERENCE_FILE_KEY</string>
+</resources>
